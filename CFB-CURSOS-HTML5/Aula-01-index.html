@@ -12,9 +12,9 @@
             <p>CFB Cursos</p>
         <p>Curso de HTML Completo e Profissional</p>
         <p>Aula 02</p>
-
+        
         <hr>
-
+        
         <!--A tag <h></h> Categoria: fluxo e Cabeçalho, display:block não aceita dois display block na mesma linha.isso quer dizer eu tnho a linha só para mim, nem antes e nem depois, nem na direita e nem na esquerda.-->
         <h1>Curso de HTML Completo e Profissional</h1>
         <h2>Aula 03</h2>
@@ -23,34 +23,34 @@
         <h5>Curso de HTML Completo e Profissional</h5>
         <h6>Curso de HTML Completo e Profissional</h6>
         <p>CFB Cursos</p>
-
+        
         <hr>
-
+        
         <!--Vamos falar sobre âncora ou links em outras palavras hiperlinks conequisão com outros arquivos ou páginas da internet. Nesta aula vamos aprender a criar links. A tag (a) é a tag de âncora.
         
         Não podemos nos esquecer que todos os elementos dentro da tag são parâmetros que vai servir para configurar a tag que estamos trabalhando.
-
+        
         O padrão de utilização do parâmetro é o nome=> href="" igual ao valor dentro das aspas, o sinal de igual ="" o que vai dentro das aspas chama-se atribuição.
-
+        
         O display padrão para tag (a) é=> inline isso quer dizer continua na mesma linha ela não muda. Para poder está mudando eu uso a{display: block;} com style que é css no head. 
-        Vamos atualizar e ver como ficou deu certo ficou um embaixo do outro.
-
+        Vamos atualizar e ver como ficou, deu certo ficou um embaixo do outro.
+        
         Se clicarmos no Canal CFB cursos nós iremos notar que ele vai abrir na mesma página eu não quero assim eu quero que abra em outra aba, tem como mudar para abrir em outra aba é só trabalharmos com o parâmetro TARGET.
-
+        
         O parâmetro target indica onde a nova página vai ser aberta eu uso o parâmetro target atribuindo o valor _blank feito dessa maneira ele abre em outra guia diferente.
-
+        
         Target="_blank" abre uma nova janela.
-
+        
         Target="_parent" É relacionado a conjunto de free set ele abre no frame set que é o pai dele.
-
+        
         Target=" _top" Que é  frame set do topo.
-
+        
         Target="framename" Serve para se eu quiser expecificar o nome de um quadro de um frame que esteja no meu conjunto eu coloco aqui suponhamos que eu estivesse aqui um frame com nome caixa bastaria que eu colocasse no target o nome caixa.
-
+        
         Target="self" É o padrão ele abre na mesma janela eu posso usar o self mais como ele é o padrão eu posso omiti ele todas as vezes que eu usar ele desta maneira target="_self" eu estou omitindo ele que é na mesma janela.
-
+        
         Vamos falar novamente do segundo parâmetro onde eu tenho apenas um link para um arquivo e está no meu site uma página que é um arquivo HTML que está no meu site. Como este arquivo aula 03 está na mesma pasta da aula 04 basta eu indicar um nome do link quando eu clicar em aula 03 ele vai abrir o aula 03 relacionado ao html como eu não usei target ele considerou self e abriu na mesma janela.
-
+        
         Vamos imaginar agora que a aula 03 esteja dentro de uma pasta como que fica o nosso caso se eu tentar abrir a aula 03 vai dar um erro ele diz que o arquivo não foi encontrado é exatamente isso mesmo o arquivo não existe mais no mesmo local eu retirei ele e coloquei dentro da pasta agora eu tenho que informar o nome da pasta. Exemplo: <a href="teste/aula03.html">Aula 03</a> ai ele abre normalmente.
         
         Um detalhe importante é o seguinte emagine a seguinte situação eu estou dentro da pasta arquivo aula 03.html que está na pasta texte e eu quero linkar eu quero criar um link para aula 04 que está fora da pasta note que eu estou voltando na extrutura de diretório como que a gente volta? como que eu endico essa volta aqui <a href="..teste/aula03.html"Aula 03</a> no link basta a gente usar ponto,ponto emagine que este arquivo aqui é a aula 03 e eu estou criando link para a aula 04 que está na pasta interior ai eu quero voltar para pasta interior eu uso .. na frente do link dentro da primeira aspas e chamar este arquivo. 
