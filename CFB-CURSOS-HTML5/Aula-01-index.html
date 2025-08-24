@@ -1,90 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+        <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Me preparando com professor Bruno">
         <title>Minha primeira aula</title>
         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--Displey block=> Ela não aceita o mesmo conteúdo na mesma linha que ela altomaticamente vai executar uma quebra de linha vai ficar sozinho naquela linha esse é o padrão do display block. Porque o <p> tem o Displey blocke ele quebra a linha e não vai a ceitar ao seu lado, no seu contener. Dois <p><p> parágrafo na mesma linha ele não aceita. Ele é um elemento de fluxo.O que é um elemento de fluxo? São dados para marcar conteúdo principal do corpo de uma página. De forma geral podemos entender o elemento de fluxo como elemento apresentado visualmente elemento que eu visualizo bari. -->  
-            <p>CFB Cursos</p>
-        <p>Curso de HTML Completo e Profissional</p>
-        <p>Aula 02</p>
-        
+        </head>
+        <body>
+    
+        <a href="#fim" id="topo"><strong>SITE-DE-APRENDIZADO</strong></a>
+    
+        <!--Displey block=> Ela não aceita o mesmo conteúdo na mesma linha que ela altomaticamente vai executar uma quebra de linha vai ficar sozinho naquela linha esse é o padrão do display block. Porque o <p> tem o Displey blocke ele quebra a linha e não vai a ceitar ao seu lado, no seu contener. Dois <p><p> parágrafo na mesma linha ele não aceita. Ele é um elemento de fluxo.O que é um elemento de fluxo? São dados para marcar conteúdo principal do corpo de uma página. De forma geral podemos entender o elemento de fluxo como elemento apresentado visualmente elemento que eu visualizo bari. -->
+    
+        <h1><strong>Aula 02</strong></h1>
+        <p>CFB Cursos</p>
+        <p>Estou aprendendo muito</p>
+        <p>Estou muito feliz com o quanto estou aprendendo.</p>
+        <h2><strong>Curso de HTML Completo e Profissional</strong></h2>
+    
+    
         <hr>
-        
+    
         <!--A tag <h></h> Categoria: fluxo e Cabeçalho, display:block não aceita dois display block na mesma linha.isso quer dizer eu tnho a linha só para mim, nem antes e nem depois, nem na direita e nem na esquerda.-->
-        <h1>Curso de HTML Completo e Profissional</h1>
-        <h2>Aula 03</h2>
+    
+        <h1>Aula 03</h1>
+        <h2>Curso de HTML Completo e Profissional</h2>
         <h3>Curso de HTML Completo e Profissional</h3>
         <h4>Curso de HTML Completo e Profissional</h4>
         <h5>Curso de HTML Completo e Profissional</h5>
         <h6>Curso de HTML Completo e Profissional</h6>
         <p>CFB Cursos</p>
-        
+    
         <hr>
-        
+    
         <!--Vamos falar sobre âncora ou links em outras palavras hiperlinks conequisão com outros arquivos ou páginas da internet. Nesta aula vamos aprender a criar links. A tag (a) é a tag de âncora.
-        
+    
         Não podemos nos esquecer que todos os elementos dentro da tag são parâmetros que vai servir para configurar a tag que estamos trabalhando.
-        
+    
         O padrão de utilização do parâmetro é o nome=> href="" igual ao valor dentro das aspas, o sinal de igual ="" o que vai dentro das aspas chama-se atribuição.
-        
+    
         O display padrão para tag (a) é=> inline isso quer dizer continua na mesma linha ela não muda. Para poder está mudando eu uso a{display: block;} com style que é css no head. 
         Vamos atualizar e ver como ficou, deu certo ficou um embaixo do outro.
-        
+    
         Se clicarmos no Canal CFB cursos nós iremos notar que ele vai abrir na mesma página eu não quero assim eu quero que abra em outra aba, tem como mudar para abrir em outra aba é só trabalharmos com o parâmetro TARGET.
-        
+    
         O parâmetro target indica onde a nova página vai ser aberta eu uso o parâmetro target atribuindo o valor _blank feito dessa maneira ele abre em outra guia diferente.
-        
+    
         Target="_blank" abre uma nova janela.
-        
+    
         Target="_parent" É relacionado a conjunto de free set ele abre no frame set que é o pai dele.
-        
+    
         Target=" _top" Que é  frame set do topo.
-        
+    
         Target="framename" Serve para se eu quiser expecificar o nome de um quadro de um frame que esteja no meu conjunto eu coloco aqui suponhamos que eu estivesse aqui um frame com nome caixa bastaria que eu colocasse no target o nome caixa.
-        
+    
         Target="self" É o padrão ele abre na mesma janela eu posso usar o self mais como ele é o padrão eu posso omiti ele todas as vezes que eu usar ele desta maneira target="_self" eu estou omitindo ele que é na mesma janela.
-        
+    
         Vamos falar novamente do segundo parâmetro onde eu tenho apenas um link para um arquivo e está no meu site uma página que é um arquivo HTML que está no meu site. Como este arquivo aula 03 está na mesma pasta da aula 04 basta eu indicar um nome do link quando eu clicar em aula 03 ele vai abrir o aula 03 relacionado ao html como eu não usei target ele considerou self e abriu na mesma janela.
-        
+    
         Vamos imaginar agora que a aula 03 esteja dentro de uma pasta como que fica o nosso caso se eu tentar abrir a aula 03 vai dar um erro ele diz que o arquivo não foi encontrado é exatamente isso mesmo o arquivo não existe mais no mesmo local eu retirei ele e coloquei dentro da pasta agora eu tenho que informar o nome da pasta. Exemplo: <a href="teste/aula03.html">Aula 03</a> ai ele abre normalmente.
-        
+    
         Um detalhe importante é o seguinte emagine a seguinte situação eu estou dentro da pasta arquivo aula 03.html que está na pasta texte e eu quero linkar eu quero criar um link para aula 04 que está fora da pasta note que eu estou voltando na extrutura de diretório como que a gente volta? como que eu endico essa volta aqui <a href="..teste/aula03.html"Aula 03</a> no link basta a gente usar ponto,ponto emagine que este arquivo aqui é a aula 03 e eu estou criando link para a aula 04 que está na pasta interior ai eu quero voltar para pasta interior eu uso .. na frente do link dentro da primeira aspas e chamar este arquivo. 
-        
+    
         Onde eu encontro a interface das ancoras? E para que elas serve? Ela serve para poder ajudar para a gente entender como que a tag trabalha e o que ela tem de atributos mais a onde eu obtenho essas informações? Pelo site HTTPS://WWW.W3.ORG depois que entrarmos no site rolamos a barra de rolagem para baixo vamos encontrar W3C CHEATSHEET clicamos sobre ele e ele vai nos informar tudo sobre a tag que eu quero pesquisar um exemplo eu quero saber sobre a tag (a) então eu digito (a) e dou um enter ele me fala é um SVG Element? Ou é um HTML Element? é um HTML Element então clicamos nele e ele vai nos mostrar todas as opções válidas para tag (a)
-        
+    
         Vamos falar agora sobre a tag (rel="external") que tipo de arquivo vai ser chamado através desse link? (rel="external") ele indica que ele é um link do conteúdo externo ao nosso site.
-        
+    
         Vamos falar agora sobre a tag (media="all") media é para indicar para qual media esse arquivo vai ser aberto e é mais adequado a media all é o padrão adequado para todos os dispositivos se for o all ele pode ser omitido não têm essa necessidade de ser encerido vou usar para tela (media="screen").
     
         Vamos falar agora sobre hreflang="pt" ele serve para indicar qual é o idioma da página que estamos abrindo.
-        
-        Vamos falar agora sobre type="text/html indica que tipo de conteúdo tem na codificação dessa página-->
-
-
-        <h2>Aula 04 ancora.</h2>
-
-        <a>Âncora vazia</a>
-
-        <a href="http://www.youtube.com/cfbcursos">Canal CFB Cursos</a>
-
-        <a href="aula03.html">Aula 03</a>
-
-        <a href="http://www.youtube.com/cfbcursos" target="_blank">Canal 1</a>
-
-        <a href="http://www.youtube.com/cfbcursos" target="_blank" rel="external" media="all" hreflang="pt-br" type="tex/html">Canal</a>
-
-        <a href="logo.rar" download>download da imagem</a>
-
-        <a href="mailto:canalfessorbruno@gmail.com?cc=canalfessorbruno@gmail.com&bcc=canalfessorbruno@gmail.com&Subject=CFB%Cursos&body=Curso%de%HTML%Completo%e%Profissional">Enviar email</a>
-
-        <a href="javascript:alert('CFB Cursos');">Canal</a>
-
-
     
-    </body>
+        Vamos falar agora sobre type="text/html indica que tipo de conteúdo tem na codificação dessa página.
+    
+        Vamos falar agora sobre o parametro download ele não é esatamente para expecificar que esse link vai funcionar como download não eu posso omitir que esse link continui funcionando como download da imagem porque ele encontrou um arquivo rar automaticamente ele vai abrir o arquivo para salvar.Então para que serve o parametro download? Ele tem a função de preparar o brawer para ele saber que esse é um link de download e também para gente ficar mais informado do gódigo. Também tem outro caso imagine que eu queira mudar o nome do arquivo para imagem eu especifico o nome entre as aspas do download no nosso caso não vai funcionar porque a gente está trabalhando offe line vai continuar aparecendo para salvar.
+    
+        Agora vamos falar sobre o link de E-mail como trabalhar com ele.
+        Esse link não vai enviar E-mail ele vai fazer é abrir o aplicativo de E-mail o padrão do computador já com essas configurações eu indiquei para quem vai ser enviado o E-mail a interrogação eu estou separando as configurações do cópia, cópia oculta cópia de retorno eu coloquei todos os E-mail aqui do cc do bcc lembrando que separamos por um e comercial& ai vem o outro assunto que é subject que também antes é separado pelo & comercial nota que no subject para separar ele usamos a % um E-mail qualquer@gmail.com&Subject=CFB%Cursos a porcentagen significa o espaço, o & comercial body ai é o que vai vim no corpo do E-mail &body=Curso%de%HTMLCompleto%Profissional quando a gente clicar nesse link o que ele vai fazer é procurar o programa de E-mail padrão que eu tenho no meu computador.
+    
+        Agora vamos falar sobre o link do JavaScript este link chama automaticamente o escript quando a gente clicar no link cliquei no link ele vai chamar aqui o excripte alert, neste caso quando eu clicar no link canal ele chama o excripte que está escrito lá para excripte exemplo  
+        <a href="javascript:alert('CFB Cursos');">Canal</a>
+    
+        Vamos ver mais um tipo de link que é muito interessante neste link vamos trabalhar com o indificador que é o id e vou chamar id aqui de fim que tem o indentificador fim  <a id="fim">Fim</a> e eu quero que essa tag aqui seja um link para essa taq aqui  <a>Âncora vazia</a> Para isso eu faço a seguinte mudança dentro do parametro que tem <a> eu coloco o href o indentificador (#) e o nome do indentificador vou colocar o  a montagem                     <a href="#fim">Âncora vazia</a> para isso aqui ficar maior vamos fazer o seguinte vou fazer este teste mais esse link leva a página para o topo quando chega no final se eu quiser chamar ele para o topo eu adiciono um id para essa âncora   <a href="#fim" id="topo">Âncora vazia</a> no final eu coloco o href para ser um link completo eu digo que eu quero adicionar para o id topo  <a href="#topo" id="fim">Fim</a> assim eu consigo navegar em áreas diferentes da nossa página só usando no href o id do elemento que eu quero fazer o posicionamento-->
+    
+    
+        <h1>Aula 04 </h1>
+        <h2>Âncora</h2>
+        <p>Tudo na vida tem o seu valor</p>
+    
+        <a href="http://www.youtube.com/cfbcursos">Canal CFB Cursos</a>
+    
+        <a href="aula03.html">Aula 03</a>
+    
+        <a href="http://www.youtube.com/cfbcursos" target="_blank">Canal 1</a>
+    
+        <a href="http://www.youtube.com/cfbcursos" target="_blank" rel="external" media="all" hreflang="pt-br" type="tex/html">Canal</a>
+    
+        <a href="logo.rar" download>download da imagem</a>
+    
+        <a href="mailto:canalfessorbruno@gmail.com?cc=canalfessorbruno@gmail.com&bcc=canalfessorbruno@gmail.com&Subject=CFB%Cursos&body=Curso%de%HTML%Completo%e%Profissional">Enviar email</a>
+    
+        <a href="javascript:alert('CFB Cursos');">Canal</a>
+    
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+        <p>Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar Freire, Vilmar</p>
+    
+        <hr>
+    
+        <h1>Aula 05</h1>
+        <h2>Vamos trabalhar a tag abbr nesta aula</h2>
+    
+    
+        <a href="#topo" id="fim">TOPO</a>
+    
+        
+        </body>
 </html>
