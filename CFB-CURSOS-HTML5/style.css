@@ -34,5 +34,26 @@ span{
      color: blue;
 }
 
+article{
+     padding: 15px;
+     border: 1px solid #000;
+     border-radius: 10px;
+     background-color: #ddd;
+     margin-bottom: 10px;
+}
+
+article h1{
+     color: #f00;
+     text-align: left;
+     font-style: unset;
+     text-decoration: none;
+     }
+
+h3{
+     font-size: 22px;
+     color: coral;
+}
+
+
 
 
