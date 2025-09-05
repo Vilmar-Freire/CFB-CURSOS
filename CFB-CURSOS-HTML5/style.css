@@ -54,6 +54,18 @@ h3{
      color: coral;
 }
 
+p{
+     font-size: 15px;
+}
+
+aside{
+     border: 1px solid #000;
+     padding: 15px;
+     border-radius: 10px;
+     background-color: bisque;
+     color: #f00;
+}
+
 
 
 
