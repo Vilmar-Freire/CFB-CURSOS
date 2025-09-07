@@ -34,8 +34,8 @@ span{
      color: blue;
 }
 
-span a{
-     width: 
+span a {
+     width: 350px;
 }
 
 article{
@@ -67,15 +67,20 @@ aside{
      padding: 06px;
      border-radius: 10px;
      background-color: #eed784;
-     width: 350px;
-     float: left;
+     width: 150px;
+     height: 300px;
 
 }
+
+.esquerda{float: left; margin-right: 10px;}
+.direita{float: right; margin-left: 10px;}
 
 aside a{
      color: #1b21dd;
      font-weight: bold;
 }
+
+
 
 
 
