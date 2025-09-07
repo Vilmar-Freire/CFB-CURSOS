@@ -35,7 +35,7 @@ span{
 }
 
 span a{
-     width: 250px;
+     width: 
 }
 
 article{
@@ -68,6 +68,7 @@ aside{
      border-radius: 10px;
      background-color: #eed784;
      width: 350px;
+     float: left;
 
 }
 
