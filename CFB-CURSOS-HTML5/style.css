@@ -114,6 +114,19 @@
           width: 200px;
      }
 
+     /*trabalhando a tag blockquote e tag cite aula 14*/
+
+     cite{
+          display: block;
+     }
+
+     blockquote{
+          color: #008;
+     }
+
+     .fundo{
+          background-color: aquamarine;
+     }
 
 
 
