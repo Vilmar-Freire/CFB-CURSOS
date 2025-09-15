@@ -144,6 +144,30 @@
           padding-bottom: 50;
      }
 
+     /*trabalhando a tag button aula 16*/
+     .btn1{
+          background-color: #000;
+          color: #fff;
+          width: 150px;
+          height: 40px;
+          border: 3px #0a0 solid;
+          border-radius: 15px;
+     }
+
+     /*se eu querer inverter uso de outra maneira se eu quiser que o botão fique branco eu quero que o texto fique preto e vire uma mão*/
+
+     .btn1{
+          background-color: #0a0;
+          color: #000;
+          width: 150px;
+          height: 40px;
+          border: 3px #000 solid;
+          border-radius: 15px;
+          cursor: pointer;
+
+          
+     }
+
 
 
 
