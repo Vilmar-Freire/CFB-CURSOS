@@ -10,10 +10,10 @@
         <title>Minha primeira aula</title>
         <link rel="stylesheet" href="style.css" />
         <base href="thumbs/" target="_blank">
-        <script>
+        <script >
                 function desenha() {
-                        var canvas = document.getElementById('canvas');
-                        var ctx=canvas.getContext('2d');
+                        var canvas = document.getElementById('teleDesenho');
+                        var ctx = canvas.getContext(' 2d ');
                         ctx.fillRect(25, 25, 100, 100);
                 }
         </script>
@@ -324,9 +324,11 @@
 
 
                         <h2>Vamos trabalhar a tag canvas aula 17</h2>
-                        <canvas id="" width="500px" height="500px">
+                        <canvas id="teleDesenho"  width="500px"  height="500px">
                                 Seu browser não tem suporte ao elemento canvas! 
                         </canvas>
+                        <script>desenha(); </script>
+                        
 
                         <hr>
 
