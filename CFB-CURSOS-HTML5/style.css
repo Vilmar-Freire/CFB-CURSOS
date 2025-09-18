@@ -168,9 +168,12 @@
      }
 
      /*trabalhando a tag canvas aula 17*/
-     canvas{
-          border: 1px #000 solid;
+     #desenho1{
+          width: 500px;
+          height: 500px;
+          border: 1px solid
      }
+     
 
 
 
