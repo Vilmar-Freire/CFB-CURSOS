@@ -10,6 +10,7 @@
         <title>Minha primeira aula</title>
         <link rel="stylesheet" href="style.css" />
         <base href="thumbs/" target="_blank">
+
         </head>
                 <body>
                         <a href="#fim" id="topo"><span>SITE-DE-APRENDIZADO</span></a>
@@ -317,8 +318,20 @@
 
 
                         <h2>Vamos trabalhar a tag canvas aula 17</h2>
-                        <canvas  id="quadro"></canvas>
+
+                        <canvas id="minhaCanvas" width="400" height="200" style="border: 1px solid #d13c3c;">
+                                Seu navegador não suporta a tag canvas.
+                        </canvas>
+
+                        <script>
+                                const canvas = document.querySelector('#minhaCanvas');
+                                const contexto = canvas.getContext('2d');
+                                contexto.fillStyle = 'blue';
+                                contexto.fillRect( 25, 25, 90, 90);
+                        </script>
                         
+                        
+
 
                         <hr>
 
@@ -377,6 +390,6 @@
 
                         <a href="#topo"  id="fim"><span>TOPO</span></a>
                         
-                        <scr src="java/index.js" ></script>
+                        <script src="java/index.js"></script>
                 </body>
 </html>
