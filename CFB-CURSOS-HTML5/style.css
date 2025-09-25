@@ -174,7 +174,15 @@
           border: 1px solid #a51414;
           }
      
+      /*trabalhando a tag code e a tag pre aula 18*/
+      pre{
+          background-color: #f1c40f;
+          border: 1px solid #e74c3c;
+          padding: 10px;
+          border-radius: 10px;
+          display: inline-block;
 
+      }
 
 
      /*Continuando a brincadeira 02*/
