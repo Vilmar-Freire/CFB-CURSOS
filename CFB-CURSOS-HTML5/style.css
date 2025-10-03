@@ -183,7 +183,30 @@
           display: inline-block;
      }
 
+     /*Trabalhando a tag <del></del>e a tag <ins></ins> da aula nº19 Com o professor Bruno é um treinamento sou aluno estou aprendendo programação é ótimo para mente não envelhe-se com programação a mente está sempre em exercício.*/
+          .lista-de-compras{
+               background-color: #fff;
+               border: #008 solid;2px;
+               padding:10px;
+               border-radius: 10px;
+               display: inline-block;
+               text-align: left;
+               font-size: 10px;
+               
+          }
+          .letra-01{
+               font-size: 14px;
+               font-synthesis-weight: bold;
+               color: #a51414;
 
+          }
+          .letra-02{
+               font-size: 12px;
+               font-variation-settings: 'wadt' 200;
+               color: #886d02;
+               
+          }
+     
      /*Continuando a brincadeira 02*/
 
      /*RESET*/
