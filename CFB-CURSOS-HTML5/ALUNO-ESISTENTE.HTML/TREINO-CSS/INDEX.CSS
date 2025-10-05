@@ -58,3 +58,31 @@ h1{
 .cor{
     color: #7fff00;
 }
+
+/*Temos que ter muita fé e acreditar no amanhã e acreitar sempre no novo dia.*/
+/*Aqui estou trabalhando com div .vida01 treinando*/
+.vida01{
+    width: 90%;
+    height: 200px;
+    background-color: #965e0b;
+    border-radius: 8px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0,1);
+    text-align: center;
+    padding: 20px;
+    color: #fadb2e;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease;
+}
+.button{
+    padding: 10px 20px;
+    background-color: rgb(235, 227, 227);
+    color: blue;
+    border-color: rgb(128, 124, 123);
+    border-radius: 10px;
+    text-decoration: #ca7c7c;
+    transition: background-color 03.s ease;
+    }
+
+    .button:hover{
+        background-color: #e7acac;
+    }
