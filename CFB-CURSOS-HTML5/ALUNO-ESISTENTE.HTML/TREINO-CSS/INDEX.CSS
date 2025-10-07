@@ -52,7 +52,7 @@ body{
 
 /*Quando eu aplico essa formatação em h1 eu encontro  essa formatação.*/
 h1{
-    color: brown;
+    color: rgb(247, 243, 239);
 }
 /*Quando eu aplico essa formatação na classe cor eu encontro  essa formatação.*/
 .cor{
@@ -90,5 +90,33 @@ h1{
     /*Temos que ter muita fé e acreditar no amanhã e acreitar sempre no novo dia.*/
 /*Aqui estou trabalhando com div .vida02 treinando*/
 .vida02{
-    
+    width: 90%;
+    height: 200px;
+    background-color: #52def7;
+    border-radius: 8px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0,1);
+    text-align: center;
+    padding: 20px;
+    color: #f704a6;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease;
 }
+
+.button002{
+    padding: 10px 20px;
+    background-color: rgb(194, 8, 101);
+    color: rgb(100, 31, 4);
+    border-color: rgb(128, 124, 123);
+    border-radius: 10px;
+    text-decoration: #ca7c7c;
+    transition: background-color 03.s ease;
+    }
+
+    .button:hover{
+        background-color: #e7acac;
+    }
+
+    .color002{
+        color:darkgreen;
+    }
+
