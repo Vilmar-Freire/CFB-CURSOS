@@ -43,12 +43,17 @@
         </div>
         <hr>
         <!--Construindo uma pequena página, usando header.-->
-        <!--O header é uma tag de agrupamento isso seguinifica que dentro dessa tag header eu vou utilizar outras tags para agrupar uma sesão, então aqui eu tenho uma seção de cabeçalho e ela é uma tag semântica isso é ela é uma tag que tem siguinificado quando um despositivo ler essa página minha pode ser um navegador um site de busca outro dispositivo qualquer quando ela encontrar a tag header ela vai intender que esse conteúdo que está aqui dentro é um conteúdo associado a cabeçalho associado ali ao cabeçalho em si então ela tem esse seguinificado semântico é diferente do div o div também é uma tag de agrupamento mais ela não tem um siguinificado semântico quando essa tag ela reandelizada ela rendealizada basicamente como um agrupamento neutro um agrupamento ali sem uma definição especifica o header não o header vai aplicar essa questão de cabeçalho parei em 00:02:47-->
+        <!--O header é uma tag de agrupamento isso seguinifica que dentro dessa tag header eu vou utilizar outras tags para agrupar uma sesão, então aqui eu tenho uma seção de cabeçalho e ela é uma tag semântica isso é ela é uma tag que tem siguinificado quando um despositivo ler essa página minha pode ser um navegador um site de busca outro dispositivo qualquer quando ela encontrar a tag header ela vai intender que esse conteúdo que está aqui dentro é um conteúdo associado a cabeçalho associado ali ao cabeçalho em si então ela tem esse seguinificado semântico é diferente do div o div também é uma tag de agrupamento mais ela não tem um siguinificado semântico quando essa tag ela reandelizada ela rendealizada basicamente como um agrupamento neutro um agrupamento ali sem uma definição especifica o header não o header vai aplicar essa questão de cabeçalho parei em -->
         <div class="container03">
 
-          <header> 
-            <h1 class="titulo">Título do Meu Site</h1>
-            <p>Um subtítulo legal para a página.</p>
+          <header> <!--Neste contexto aqui é o cabeçalho da página, é um cabeçalho principal da página-->
+            <!--Esse header pode ser repetido? algumas tags não pode ser repetido o caso o <h1></h1> ele deve ser o unico na página porque o <h1></h1> aponta para um título cada página depois do visto semântico ele precisa ter um uníco titúdo então se eu colocar se eu duplicar um titílo será um erro porque eu estou duplicando um titúlo isso taria errado.-->
+            <!--Mais o header eu posso então uma página pode ter dois cabeçalho? Não exatamente o header ele não indica necessáriamente um cabeçalho da página nesse contesto que estamos trabalhando sim, mais ele pode ser cabeçalho de uma sesão certo eu vou dá um exemplo na parte de baixo. Aqui eu tenho a <man></man> dentro da <men></men> eu tenho uma <section></section> nessa <section></section> eu estou colocando aqui uma seção onde aqui um <h2></h2> como subtítulo dela eu tenho uma data de publicasão vou ter um conteúdo vou ter um <card</card> uma série de coisa. Então eu posso pegar e fazer o seguinte eu posso pegar e colocar um <header></header> em baixo do <section></section> e posso agrupar  o conteúdo que está na parte de baixo com o <header></header> -->
+              <img src=""  class="logo" alt="">
+              <!-- campo de pesquisa-->
+
+              <h1 class="titulo">Título do Meu Site</h1>
+               <p>Um subtítulo legal para a página.</p>
           </header>
 
           <nav>
@@ -62,10 +67,11 @@
 
           <main>
             <section>
-              <h2>Seção Principal da Página</h2>
-              <p>Publicado em: 22 de Agosto de 2025</p>
+              <header>
+                      <h2>Seção Principal da Página</h2>
+                      <p>Publicado em: 22 de Agosto de 2025</p>
+              </header>
               <p>Aqui você pode ter uma introdução ou um resumo do conteúdo.</p>
-              
               <div class="card">
                 <h3>Título do card</h3>
                 <p>Este é um exemplo de um card que pode conter informações adicional</p>
