@@ -48,23 +48,23 @@
 
           <header> <!--Neste contexto aqui é o cabeçalho da página, é um cabeçalho principal da página-->
             <!--Esse header pode ser repetido? algumas tags não pode ser repetido o caso o <h1></h1> ele deve ser o unico na página porque o <h1></h1> aponta para um título cada página depois do visto semântico ele precisa ter um uníco titúdo então se eu colocar se eu duplicar um titílo será um erro porque eu estou duplicando um titúlo isso taria errado.-->
-            <!--Mais o header eu posso então uma página pode ter dois cabeçalho? Não exatamente o header ele não indica necessáriamente um cabeçalho da página nesse contesto que estamos trabalhando sim, mais ele pode ser cabeçalho de uma sesão certo eu vou dá um exemplo na parte de baixo. Aqui eu tenho a <man></man> dentro da <men></men> eu tenho uma <section></section> nessa <section></section> eu estou colocando aqui uma seção onde aqui um <h2></h2> como subtítulo dela eu tenho uma data de publicasão vou ter um conteúdo vou ter um <card</card> uma série de coisa. Então eu posso pegar e fazer o seguinte eu posso pegar e colocar um <header></header> em baixo do <section></section> e posso agrupar  o conteúdo que está na parte de baixo com o <header></header> -->
+            <!--Mais o header eu posso então uma página pode ter dois cabeçalho? Não exatamente o header ele não indica necessáriamente um cabeçalho da página nesse contesto que estamos trabalhando sim, mais ele pode ser cabeçalho de uma sesão certo eu vou dá um exemplo na parte de baixo. Aqui eu tenho a <man></man> dentro da <men></men> eu tenho uma <section></section> nessa <section></section> eu estou colocando aqui uma seção onde aqui um <h2></h2> como subtítulo dela eu tenho uma data de publicasão vou ter um conteúdo vou ter um <card</card> uma série de coisa. Então eu posso pegar e fazer o seguinte eu posso pegar e colocar um <header></header> esse header não é o cabeçalho da página. Eu tenho uma <section></section> e dentro da <section></section> eu tenho um header esse header aqui não é o cabeçalho da página o mecanismo de busca o navegador vai entender que dentro dessa sessão eu coloquei um cabeçalho da sessão depois aqui eu tenho o conteúdo dela propriamente dito isso é possivel e isso organiza melhor o código passa uma informação para o navegador muito mais precisa para entender melhor o conteúdo de busca. E posso agrupar  o conteúdo que está na parte de baixo com o <header></header> -->
               <img src=""  class="logo" alt="">
               <!-- campo de pesquisa-->
 
               <h1 class="titulo">Título do Meu Site</h1>
                <p>Um subtítulo legal para a página.</p>
+                <nav>
+                      <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                      </ul>
+                </nav>
           </header>
 
-          <nav>
-            <ul>
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contato</a></li>
-              </ul>
-          </nav>
-
+         
           <main>
             <section>
               <header>
@@ -92,7 +92,6 @@
               <p>O conteúdo da tag 'aside' é relacionado, mas separado do conteúdo principal.</p>
             </aside>
           </main>
-
         </div>
         
 </body>

@@ -120,3 +120,67 @@ h1{
         color:darkgreen;
     }
 
+    /*Trabalhando a tag header formatação genérica*/
+    .container03{
+        max-width: 960px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    header, nav, main, article, section, aside, footer{
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    /*Formatação expesifica para o header*/
+    header{
+        background-color: #52def7;
+        color: #fff;
+        text-align: center;
+    }
+    /*Formatação para o h1 que está dentro do header*/
+    header h1{
+        margin: 0;
+
+    }
+
+    nav ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #e2dfdb;
+    }
+
+    nav li a {
+        display: block;
+        color: #fff
+        text-decoration: none;
+        padding: 10px 15px;
+        }
+
+        main{
+            background-color: #a47cca;
+        }
+
+        article{
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        aside{
+            background-color: f0f0f0;
+            font-style: italic;
+        }
+
+        footer{
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+
+
+
