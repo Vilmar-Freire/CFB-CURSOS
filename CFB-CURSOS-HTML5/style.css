@@ -207,12 +207,16 @@
                
           }
 
-          /*Trabalhando a tag details aula 20*/
+          /*Trabalhando as tags details e summary aula 20*/
           .aula20{
                font-size: 20px;
                font-weight: bold;
                color: coral;
                text-align: center;
+          }
+
+          summary{
+               color:#f00;
           }
      
      /*Continuando a brincadeira 02*/
