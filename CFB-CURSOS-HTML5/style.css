@@ -228,7 +228,11 @@
                border: 10px solid #000;
                border-radius: 15px;
                padding: 15px;
-               font-size: 20px;
+          }
+
+          details{
+               background-color: #000;
+               border-radius: 10px; 
           }
 
           summary{
@@ -338,6 +342,43 @@
      .aula{
           font-size: 26px;
      }
+
+     /*Styling the summary*/
+     .summary01{
+          color: #00f;
+          font-size: 20px;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 5px;
+          padding: 10px;
+     }
+
+     .details01{
+          background-color: #a51414;
+          color: #fff;
+          font-size: 15px;
+          font-weight: bold;
+          border-radius: 10px;
+          padding: 10px;
+          border: 3px solid #000;  
+          margin-top: 10px;
+          margin-bottom: 10px;
+          display-inline-block;
+          width: 400px;
+          text-align: left;
+     }
+
+     .p01{
+          color:#fff;
+          font-size: 15px;
+          font-weight: bold;
+          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-style: italic;
+     }
+
+
 
 
 
